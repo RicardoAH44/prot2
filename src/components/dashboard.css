@@ -1,0 +1,33 @@
+/* src/dashboard.css */
+
+.navbar {
+    background-color: #F7FFCF;
+    color: black;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    font-size: small;
+    opacity: 0; /* Inicialmente configurado a 0 para la transición */
+    transition: opacity 0.3s ease;
+    border-bottom: solid 1px #1C5E3C;
+  }
+  
+  .navbar.show {
+    opacity: 1; /* Cuando la clase show está presente, la opacidad es 1 */
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    margin-right: 100px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .navbar-image {
+    width: 75px;
+    height: 75px;
+  }
+  

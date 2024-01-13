@@ -1,12 +1,15 @@
+// src/App.js
+
 import React from 'react';
 import './App.css';
 import 'animate.css';
 import Dashboard from './components/dashboard';
 import Contenido from './components/contenido';
+import ContainerPrincipal2 from './components/containerprincipal2';
 
 function App() {
   return (
-    <div>
+    <div className='back'>
       <main>
         <div className='containerpincipal'>
           <div id="container_limon" className="container">
@@ -19,74 +22,11 @@ function App() {
             </div>
           </div>
         </div>
-
-        <div className='containerprincipal2'>
-          <div className="contenido-container">
-            <div className="contenido-content">
-              <div className="contenido-text">
-                <h1>Texto a la Izquierda</h1>
-                <p>Más texto descriptivo si es necesario.</p>
-              </div>
-              <div className="contenido-imagen">
-                <img src={process.env.PUBLIC_URL + '/public/images/Supremo.png'} alt="Ejemplo" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='containerprincipal2'>
-          <div className="contenido-container">
-            <div className="contenido-content">
-              <div className="contenido-text">
-                <h1>Texto a la Izquierda</h1>
-                <p>Más texto descriptivo si es necesario.</p>
-              </div>
-              <div className="contenido-imagen">
-                <img src={process.env.PUBLIC_URL + '/public/images/Supremo.png'} alt="Ejemplo" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='containerprincipal2'>
-          <div className="contenido-container">
-            <div className="contenido-content">
-              <div className="contenido-text">
-                <h1>Texto a la Izquierda</h1>
-                <p>Más texto descriptivo si es necesario.</p>
-              </div>
-              <div className="contenido-imagen">
-                <img src={process.env.PUBLIC_URL + '/public/images/Supremo.png'} alt="Ejemplo" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='containerprincipal2'>
-          <div className="contenido-container">
-            <div className="contenido-content">
-              <div className="contenido-text">
-                <h1>Texto a la Izquierda</h1>
-                <p>Más texto descriptivo si es necesario.</p>
-              </div>
-              <div className="contenido-imagen">
-                <img src={process.env.PUBLIC_URL + '/public/images/Supremo.png'} alt="Ejemplo" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='containerprincipal2'>
-          <div className="contenido-container">
-            <div className="contenido-content">
-              <div className="contenido-text">
-                <h1>Texto a la Izquierda</h1>
-                <p>Más texto descriptivo si es necesario.</p>
-              </div>
-              <div className="contenido-imagen">
-                <img src={process.env.PUBLIC_URL + '/public/images/Supremo.png'} alt="Ejemplo" />
-              </div>
-            </div>
-          </div>
-        </div>
-
         <Dashboard></Dashboard>
+
+        <ContainerPrincipal2 />
+        <ContainerPrincipal2 />
+        <ContainerPrincipal2 />
 
       </main>
     </div>

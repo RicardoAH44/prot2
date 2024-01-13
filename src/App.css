@@ -5,6 +5,18 @@
   margin-bottom: 20px; /* Separación entre containerprincipal y containerprincipal2 */
 }
 
+
+.back{
+  background-color:#70C72A;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+}
+
+
+
 #container_limon {
   background-image: url("/public/images/limon4.jpeg");
   background-size: cover;
@@ -14,6 +26,7 @@
   width: 100%;
   height: 100vh; /* Usamos viewport height para ocupar el 100% del alto de la ventana */
 }
+
 
 .overlay {
   position: absolute;
@@ -42,13 +55,7 @@
   left: 8%;
 }
 
-#logo {
-  width: 20%;
-  height: auto;
-  position: absolute;
-  top: 50px;
-  left: 100px;
-}
+
 
 .navbar {
   background-color: #333;
@@ -60,15 +67,12 @@
   z-index: 1000;
 }
 
-/* Estilos para containerprincipal2 */
-.containerprincipal2 {
-  margin-top: 20px; /* Separación entre containerprincipal y containerprincipal2 */
-}
 
 /* Estilos para contenido */
 .contenido-container {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .contenido-text {
@@ -81,3 +85,6 @@
   width: 50%; /* Ajusta el tamaño de la imagen según tus necesidades */
   height: auto;
 }
+
+
+

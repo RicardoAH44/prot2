@@ -1,0 +1,29 @@
+/* src/components/ContainerPrincipal2.css */
+
+.containerprincipal2 {
+  background-color: #fbfeec;
+  padding: 120px 60px;
+}
+
+.contenido {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rectangulo {
+  margin-top: 190px;
+  width: 60%;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px rgb(169, 166, 166);
+}
+
+.contenido-en-rectangulo {
+  text-align: center;
+}
+.logo-afuera img {
+  margin-top: 280px;
+  width: 250px; /* Ajusta el ancho del logo según tus necesidades */
+  height: auto; /* Esto mantiene la proporción original al ajustar el ancho */
+  margin-right: 140px; /* Agrega un margen izquierdo para separar el logo del rectángulo */
+}

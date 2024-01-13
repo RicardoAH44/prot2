@@ -1,14 +1,14 @@
 /* src/dashboard.css */
 
 .navbar {
-    background-color: #F7FFCF;
+    background-color: #ffffff;
     color: black;
     padding: 10px;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    font-size: small;
+    font-size: 12px;
     opacity: 0; /* Inicialmente configurado a 0 para la transición */
     transition: opacity 0.3s ease;
     border-bottom: solid 1px #1C5E3C;

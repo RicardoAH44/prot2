@@ -25,8 +25,8 @@ function App() {
         <Dashboard></Dashboard>
 
         <ContainerPrincipal2 />
-        <ContainerPrincipal2 />
-        <ContainerPrincipal2 />
+        <Contenido></Contenido>
+    
 
       </main>
     </div>

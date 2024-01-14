@@ -1,29 +1,29 @@
 /* src/components/ContainerPrincipal2.css */
 
 .containerprincipal2 {
-  background-color: #fbfeec;
+  background-color: #fafcf1;
   padding: 120px 60px;
 }
 
 .contenido {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.rectangulo {
-  margin-top: 190px;
-  width: 60%;
-  height: 500px;
-  background-color: rgb(255, 255, 255);
-  border: solid 1px rgb(169, 166, 166);
-}
-
-.contenido-en-rectangulo {
+.contenido h2 {
+  font-family: 'Lexend', sans-serif;
+  font-size: 18px; /* Ajusta el tamaño del texto según tus necesidades */
+  margin: 0; /* Elimina el margen del h2 */
   text-align: center;
+  max-width: 500px; /* Ajusta la anchura máxima del texto */
+  margin-left: 400px;
+  margin-top: 29px; /* Ajusta el margen izquierdo según tus necesidades */
 }
+
 .logo-afuera img {
-  margin-top: 280px;
+  margin-top:13px; /* Ajusta la distancia desde arriba según tus necesidades */
   width: 250px; /* Ajusta el ancho del logo según tus necesidades */
-  height: auto; /* Esto mantiene la proporción original al ajustar el ancho */
-  margin-right: 140px; /* Agrega un margen izquierdo para separar el logo del rectángulo */
+  height: auto;
+  margin-right: 480px; /* Esto mantiene la proporción original al ajustar el ancho */
 }

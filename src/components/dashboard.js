@@ -2,6 +2,8 @@
 
 import React, { useEffect, useState } from 'react';
 import './dashboard.css';
+import 'animate.css';
+import LimonSP from './LimonSP';
 
 const Dashboard = () => {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -34,11 +36,11 @@ const Navbar = ({ show }) => {
     <div className={`navbar ${show ? 'show' : ''}`}>
       <div className="navbar-content">
         <div className='navbar-text'>
-          {/* Additional text or components */}
+          { <LimonSP></LimonSP>}
         </div>
-        <h1>Inicio</h1>
-        <h1>Nosotros</h1>
-        <h1>Contacto</h1>
+        <h1 className='animate__animated animate__fadeInRight'>Inicio</h1>
+        <h1 className='animate__animated animate__fadeInRight'>Nosotros</h1>
+        <h1 className='animate__animated animate__fadeInRight'>Contacto</h1>
       </div>
     </div>
   );

@@ -11,18 +11,24 @@
     font-size: 12px;
     opacity: 0; /* Inicialmente configurado a 0 para la transición */
     transition: opacity 0.3s ease;
-    border-bottom: solid 1px #1C5E3C;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra */
   }
   
   .navbar.show {
     opacity: 1; /* Cuando la clase show está presente, la opacidad es 1 */
   }
   
+  .limon {
+    color: rgb(58, 129, 62);
+    margin-left: 200px; /* Ajusta el margen izquierdo según tus necesidades */
+  }
+  
+  /* Ajusta el espaciado y margen en la barra de navegación */
   .navbar-content {
     display: flex;
     justify-content: flex-end;
-    gap: 50px;
-    margin-right: 100px;
+    gap: 20px; /* Ajusta el espacio entre elementos según tus necesidades */
+    margin-right: 20px; /* Ajusta el margen derecho según tus necesidades */
     font-family: 'Quicksand', sans-serif;
   }
   

@@ -12,7 +12,7 @@ const Contenido = () => {
           <p>Más texto descriptivo si es necesario.</p>
         </div>
         <div className="contenido-imagen">
-          <img src={process.env.PUBLIC_URL + '/public/images/Supremo.png'} alt="Ejemplo" />
+          <img src={process.env.PUBLIC_URL + '/images/Supremo.png'} alt="Ejemplo" />
         </div>
       </div>
     </div>

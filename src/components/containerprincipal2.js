@@ -1,22 +1,24 @@
 // src/components/ContainerPrincipal2.js
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import './containerprincipal2.css';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const ContainerPrincipal2 = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="containerprincipal2">
       <div className="contenido">
-        <div className="rectangulo">
-          <div className="contenido-en-rectangulo">
-            <h2>Limón Supremo destaca por su tamaño generoso,
-              jugosidad inigualable y una acidez perfectamente equilibrada.
-              Cada fruto es tratado con cuidado desde la cosecha,
-              siendo meticulosamente seleccionado, espillado y
-              encerado para asegurar su frescura y calidad insuperables.</h2>
-          </div>
-        </div>
-        <div className="logo-afuera">
+        <h2 data-aos="fade-right">Limón Supremo destaca por su tamaño generoso,
+          jugosidad inigualable y una acidez perfectamente equilibrada.
+          Cada fruto es tratado con cuidado desde la cosecha,
+          siendo meticulosamente seleccionado, espillado y
+          encerado para asegurar su frescura y calidad insuperables.</h2>
+        <div className="logo-afuera" data-aos="fade-up">
           <img src={process.env.PUBLIC_URL + '/images/Supremo.png'} alt="Imagen de Contenido" />
         </div>
       </div>

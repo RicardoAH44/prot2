@@ -1,4 +1,42 @@
-.contenido-container{
+/* contenido.css */
+
+.fondo-video-container {
     position: relative;
-    top: 20px;
-}
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .fondo-video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 55%; 
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  .gradient-overlay {
+    position: absolute;
+   
+    top: 0;
+    width: 100%; /* Restante de la pantalla */
+    height: 100%;
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,0) 24%, rgba(255,255,255,1) 54%);
+  }
+  
+  .info-container {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; /* Ajustado para alinear a la derecha */
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.007);
+    backdrop-filter: blur(3px); 
+  }
+  

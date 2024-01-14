@@ -2,18 +2,16 @@
 
 import React from 'react';
 import "./contenido.css";
-
+import videolim from "../videos/video_limon.mp4"
 const Contenido = () => {
   return (
-    <div className="contenido-container">
-      <div className="contenido-content">
-        <div className="contenido-text">
-          <h1>Texto a la Izquierda</h1>
-          <p>Más texto descriptivo si es necesario.</p>
-        </div>
-        <div className="contenido-imagen">
-          <img src={process.env.PUBLIC_URL + '/images/Supremo.png'} alt="Ejemplo" />
-        </div>
+    <div className="fondo-video-container">
+      <video src={videolim} className="fondo-video" autoPlay loop muted disablePictureInPicture disableRemotePlayback/>
+      <div className="gradient-overlay" />
+      <div className="info-container">
+        {/* Contenido informativo */}
+        <h1>Información Importante</h1>
+        <p>Aquí va tu contenido informativo...</p>
       </div>
     </div>
   );

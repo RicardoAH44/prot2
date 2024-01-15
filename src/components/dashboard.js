@@ -35,6 +35,10 @@ const Navbar = ({ show }) => {
   return (
     <div className={`navbar ${show ? 'show' : ''}`}>
       <div className="navbar-content">
+        <div className='navbar-image'>
+          <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="Imagen de Contenido" />
+         
+        </div>
         <div className='navbar-text'>
           { <LimonSP></LimonSP>}
         </div>

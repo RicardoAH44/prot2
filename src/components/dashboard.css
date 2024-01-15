@@ -1,4 +1,3 @@
-/* src/dashboard.css */
 
 .navbar {
     background-color: #ffffff;
@@ -31,9 +30,16 @@
     margin-right: 20px; /* Ajusta el margen derecho según tus necesidades */
     font-family: 'Quicksand', sans-serif;
   }
-  
+
   .navbar-image {
     width: 75px;
     height: 75px;
+
   }
   
+  .navbar-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta según tus necesidades */
+    border-radius: 50%; /* Añade bordes redondeados si lo deseas */
+  }

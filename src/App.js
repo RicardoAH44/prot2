@@ -6,6 +6,7 @@ import 'animate.css';
 import Dashboard from './components/dashboard';
 import Contenido from './components/contenido';
 import ContainerPrincipal2 from './components/containerprincipal2';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <div className='containerpincipal'>
           <div id="container_limon" className="container">
             <div className="overlay"></div>
+            
             <div id="text" className="animate__animated animate__slideInLeft">
               <h1>LIMON</h1>
             </div>
@@ -26,7 +28,7 @@ function App() {
 
         <ContainerPrincipal2 />
         <Contenido></Contenido>
-    
+        <Footer></Footer>
 
       </main>
     </div>

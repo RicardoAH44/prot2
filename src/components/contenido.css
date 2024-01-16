@@ -12,6 +12,9 @@
     width: 55%; 
     height: 100%;
     object-fit: cover; 
+    filter:saturate(0%) sepia(100%) contrast(150%) saturate(150%);
+    filter: grayscale(1) blur(1px) contrast(1.2) sepia(1) blur(0.25px);
+    
   }
   
   .gradient-overlay {
@@ -19,7 +22,7 @@
     top: 0;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(90deg, rgba(9,9,121,0) 24%, rgb(255, 255, 255) 54%);
+    background: linear-gradient(90deg, rgba(9,9,121,0) 24%, #ffffc9 54%);
   }
   
   .info-container {

@@ -1,0 +1,52 @@
+contenido2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 40px 20px 20px 10px; /* Ajusta el margen según tus necesidades, incluyendo el margen izquierdo */
+  }
+  
+  .imagenes-izquierda {
+    width: 60%; /* Ajusta el ancho del lado izquierdo según tus necesidades */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .imagen1 {
+    height: 390px;
+    border-radius: 8px;
+    margin-bottom: 290px;
+    margin-left: 10px;
+  }
+  
+  .imagen2 {
+    border-radius: 8px;
+    margin-bottom: -3px;
+    margin-left: -380px;
+  }
+  
+  .imagen3 {
+    border-radius: 8px;
+    margin-bottom: -2px;
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+  .imagen4 {
+    border-radius: 8px;
+    margin-bottom: -2px;
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+  
+  .texto-derecha {
+    width: 70%; /* Ajusta el ancho del lado derecho según tus necesidades */
+    /* Ajusta el margen izquierdo del texto según tus necesidades */
+  }
+  .texto-sobreimagen {
+    position: absolute;
+    top: 300%; /* Ajusta la posición vertical según sea necesario */
+    left: 60%; /* Ajusta la posición horizontal según sea necesario */
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: rgb(145, 24, 24); /* Ajusta el color del texto según sea necesario */
+  }
+  

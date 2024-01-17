@@ -7,6 +7,8 @@ import Dashboard from './components/dashboard';
 import Contenido from './components/contenido';
 import ContainerPrincipal2 from './components/containerprincipal2';
 import Footer from './components/footer';
+import Contenido2 from './components/contenido2';
+import Conten3 from './components/conten3';
 
 function App() {
   return (
@@ -27,6 +29,13 @@ function App() {
         <Dashboard></Dashboard>
 
         <ContainerPrincipal2 />
+
+        <Contenido2>
+
+          <Conten3></Conten3>
+      
+        </Contenido2>
+        
         <Contenido></Contenido>
         <Footer></Footer>
 

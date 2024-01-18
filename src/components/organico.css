@@ -8,29 +8,31 @@
     align-items: center;
     margin-bottom: 20px;
     margin-top:90px;
-    margin-left: 190px;
+    margin-left: 290px;
+    border-radius: 8px;
    
   }
 
   .organico-item.reverse {
     flex-direction: row-reverse;
-    margin-right:190px;
+    margin-right:390px;
   }
   
   img {
     width: 400px;
-    height:auto ;
-    margin-left: 90px;
-    
-    margin-right: 50px;  /* Ajusta el espacio entre la imagen y el texto según tus necesidades */
-    margin-left: 50px;  /* Ajusta el espacio entre el texto y la imagen según tus necesidades */
+    height: auto;
+    margin-left: 290px;
+    border-radius: 15px;
+    margin-right: 90px;
+    margin-left: 41px; /* Ajusta el espacio entre el texto y la imagen según tus necesidades */
   }
 
   .parrafo{
     overflow: hidden;
-    width: 700px;
-    font-size: 18px;
+    width: 811px;
+    font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    margin-left: -44px;
   }
   

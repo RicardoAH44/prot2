@@ -13,11 +13,11 @@ const ContainerPrincipal2 = () => {
   return (
     <div className="containerprincipal2">
       <div className="contenido">
-        <h2 data-aos="fade-right">Limón Supremo destaca por su tamaño generoso,
+        <p data-aos="fade-right">Limón Supremo destaca por su tamaño generoso,
           jugosidad inigualable y una acidez perfectamente equilibrada.
           Cada fruto es tratado con cuidado desde la cosecha,
           siendo meticulosamente seleccionado, espillado y
-          encerado para asegurar su frescura y calidad insuperables.</h2>
+          encerado para asegurar su frescura y calidad insuperables.</p>
         <div className="logo-afuera" data-aos="fade-up">
           <img src={process.env.PUBLIC_URL + '/images/Supremo.png'} alt="Imagen de Contenido" />
         </div>

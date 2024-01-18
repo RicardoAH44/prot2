@@ -14,10 +14,9 @@ const Contenido = () => {
         {/* Contenido informativo */}
         <div  className="animate__animated animate__slideInRight contenido_limon">
             <h1>Si la vida da <span className='verde'>limones</span></h1>
+            <h1>nosotros te los entregamos</h1>
         </div>
-        <div  className="animate__animated animate__slideInRight contenido_limon">
-            <h2>nosotros te los entregamos</h2>
-        </div>
+        
         
       </div>
     </div>

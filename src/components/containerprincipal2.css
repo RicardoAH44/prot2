@@ -11,14 +11,13 @@
   align-items: center;
 }
 
-.contenido h2 {
-  font-family: 'Lexend', sans-serif;
-  font-size: 18px; /* Ajusta el tamaño del texto según tus necesidades */
-  margin: 0; /* Elimina el margen del h2 */
-  text-align: center;
-  max-width: 500px; /* Ajusta la anchura máxima del texto */
-  margin-left: 400px;
-  margin-top: 29px; /* Ajusta el margen izquierdo según tus necesidades */
+.contenido p {
+  overflow: hidden;
+    width: 800px;
+    font-size: 20px;
+    font-family: roboto, Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-left: 290px;
 }
 
 .logo-afuera img {

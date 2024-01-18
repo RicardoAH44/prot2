@@ -9,6 +9,7 @@ import ContainerPrincipal2 from './components/containerprincipal2';
 import Footer from './components/footer';
 import Contenido2 from './components/contenido2';
 import Conten3 from './components/conten3';
+import Organico  from './components/organico';
 
 function App() {
   return (
@@ -30,15 +31,16 @@ function App() {
 
         <ContainerPrincipal2 />
 
-        <Contenido2>
+        <Organico></Organico>
 
-          <Conten3></Conten3>
-      
-        </Contenido2>
+
+        <Contenido2></Contenido2>
+
+        
         
         <Contenido></Contenido>
         <Footer></Footer>
-
+     
       </main>
     </div>
   );

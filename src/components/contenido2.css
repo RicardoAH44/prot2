@@ -16,12 +16,14 @@ contenido2 {
     border-radius: 8px;
     margin-bottom: 290px;
     margin-left: 10px;
+    flex-direction: column;
   }
   
   .imagen2 {
     border-radius: 8px;
     margin-bottom: -3px;
     margin-left: -380px;
+    flex-direction: column;
   }
   
   .imagen3 {
@@ -30,12 +32,7 @@ contenido2 {
     margin-left: 20px;
     margin-top: 40px;
   }
-  .imagen4 {
-    border-radius: 8px;
-    margin-bottom: -2px;
-    margin-left: 20px;
-    margin-top: 40px;
-  }
+ 
   
   .texto-derecha {
     width: 70%; /* Ajusta el ancho del lado derecho según tus necesidades */

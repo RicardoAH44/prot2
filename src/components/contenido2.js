@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
 import './contenido2.css';
-
+import { useTranslation } from 'react-i18next';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
 const Contenido2 = () => {
+  const {t} = useTranslation();
   useEffect(() => {
     Aos.init({ duration:1500 });
   }, []);
@@ -18,10 +19,7 @@ const Contenido2 = () => {
         <img src="/images/b2.jpeg" alt="Imagen 2" className="imagen2"   />
       </div>
       <div className="texto-sobreimagen" data-aos="zoom-in-left">
-        <p>La ubicación estratégica de nuestras instalaciones, a escasos minutos del puerto de Manzanillo, facilita de manera significativa
-           la exportación de limones a nivel global. Esta proximidad al puerto, uno de los principales centros logísticos de la región, nos
-            otorga una ventaja competitiva al permitirnos realizar envíos eficientes y oportunos a destinos internacionales. Estamos comprometidos
-             con la excelencia en la logística de exportación, garantizando la frescura y calidad de nuestros productos en cualquier parte del mundo.</p>
+        <p>{t('container2.text')}</p>
       </div>
     </div>
   );

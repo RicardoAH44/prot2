@@ -10,6 +10,9 @@ import Footer from './components/footer';
 import Contenido2 from './components/contenido2';
 import Conten3 from './components/conten3';
 import Organico  from './components/organico';
+import i18n from './i18n';
+import LanguageSwitcher from './components/LanfugueSwitcher';
+
 
 function App() {
   return (
@@ -28,7 +31,7 @@ function App() {
           </div>
         </div>
         <Dashboard></Dashboard>
-
+        
         <ContainerPrincipal2 />
 
         <Organico></Organico>

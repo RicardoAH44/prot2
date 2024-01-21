@@ -47,9 +47,9 @@ const Navbar = ({ show }) => {
         
         
        
-        <h1 data-aos="fade-right">Inicio</h1>
-        <h1 className='animate_animated animate_fadeInRight'>Nosotros</h1>
-        <h1 className='animate_animated animate_fadeInRight'>Contacto</h1>
+        <h1 data-aos="fade-right">{t('dashboard.home')}</h1>
+        <h1 className='animate_animated animate_fadeInRight'>{t('dashboard.about_us')}</h1>
+        <h1 className='animate_animated animate_fadeInRight'>{t('dashboard.contact')}</h1>
         <LanguageSwitcher/>
       </div>
       {/* Agrega el logo fuera del navbar-content */}

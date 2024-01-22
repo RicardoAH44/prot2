@@ -1,22 +1,32 @@
 // src/components/Contenido.js
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./contenido.css";
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 import videolim from "../videos/video_limon.mp4"
 const Contenido = () => {
 
+  useEffect(() => {
+    Aos.init({ duration:1500 });
+  }, []);
+
+
   return (
     <div className="fondo-video-container">
-      <video src={videolim} className="fondo-video" autoPlay loop muted disablePictureInPicture disableRemotePlayback/>
-      <div className="gradient-overlay" />
+       <img src="/images/111.jpeg" alt="Imagen 3" className="imagen3"  />
       <div className="info-container">
         {/* Contenido informativo */}
-        <div  className="animate__animated animate__slideInRight contenido_limon">
-            <h1>Si la vida da <span className='verde'>limones</span></h1>
-            <h1>nosotros te los entregamos</h1>
+        <div  className="contenido_limon" data-aos="fade-right">
+            <h1>El <span className='verde'>limon </span>organico </h1>
+            <h1>supremo del mundo</h1>
         </div>
         
+        <div  className="a contenido_limon" data-aos="fade-left">
+            <p> Desde 1985</p>
+           
+        </div>
         
       </div>
     </div>

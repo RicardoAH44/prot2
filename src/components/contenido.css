@@ -2,19 +2,12 @@
     position: relative;
     overflow: hidden;
     display: flex;
-    margin-top: 90px
+    margin-top: 90px;
+    margin-left: 500px;
    
   }
   
-  .fondo-video {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 55%; 
-    height: 100%;
-    object-fit: cover; 
-   
-  }
+ 
   
   .gradient-overlay {
    

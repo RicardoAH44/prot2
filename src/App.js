@@ -10,6 +10,7 @@ import Footer from './components/footer';
 import Contenido2 from './components/contenido2';
 import Conten3 from './components/conten3';
 import Organico  from './components/organico';
+import Videos from  './components/video_empaque';
 
 function App() {
   return (
@@ -33,14 +34,15 @@ function App() {
 
         <Organico></Organico>
 
-
+      
         <Contenido2></Contenido2>
 
-        
-        
+      
+        <Videos></Videos>
         <Contenido></Contenido>
+       
         <Footer></Footer>
-     
+        
       </main>
     </div>
   );

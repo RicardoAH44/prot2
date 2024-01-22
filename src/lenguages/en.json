@@ -1,0 +1,26 @@
+{
+  "dashboard": {
+    "home": "Home",
+    "about_us": "About us",
+    "contact": "Contact"
+  },
+
+  "containerP2": {
+    "text": "Limón Supremo, of generous size and unparalleled juiciness, is carefully cut by hand by local farmers. This artisanal method ensures that each fruit is treated with the utmost care to preserve its full flavor. They are then meticulously selected, brushed and waxed to guarantee unsurpassed freshness and quality. Limón Supremo: a delicacy with the distinctive touch of our growers' craftsmanship."
+  },
+  "container2": {
+    "text": "The strategic location of our facilities, just minutes from the port of Manzanillo, significantly facilitates the export of lemons globally. This proximity to the port, one of the main logistics centers in the region, gives us a competitive advantage by allowing us to make efficient and timely shipments to international destinations. We are committed to excellence in export logistics, guaranteeing the freshness and quality of our products anywhere in the world."
+  },
+  "Organico": {
+    "text1": "At Limon Supremo, every step of the growing process is carried out with the highest standard of excellence. From seed selection to harvest, we are committed to offering lemons that not only meet organic requirements, but are also a source of health wellness. Our lemons, being pesticide-free, ensure that consumers enjoy a fresh, natural fruit with authentic flavor and uncompromising nutritional benefits.",
+    "text2": "Limon Supremo is distinguished by its unwavering commitment to quality and sustainability in the production of organic lemons. Our company prides itself on growing organic lemons that are completely free of pesticides and other synthetic chemicals. We are committed to farming methods that respect the natural balance of the ecosystem, using sustainable practices that minimize environmental impact.",
+    "text3": "We pride ourselves on being a trusted choice for those seeking high quality organic lemons, grown with integrity and dedication to the health of the consumer and the environment. Limon Supremo is synonymous with exceptional organic lemons, where quality, sustainability and health converge in every harvest."
+  },
+  "footer":{
+    "contact":"Contact us",
+    "gmail":"Gmail",
+    "phone":"Phone",
+    "social_media":"Social Media",
+    "rights":"All rights reserved."
+  }
+}

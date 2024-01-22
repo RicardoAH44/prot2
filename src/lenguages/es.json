@@ -1,0 +1,25 @@
+{
+  "dashboard": {
+    "home": "Inicio",
+    "about_us": "Nosotros",
+    "contact": "Contacto"
+  },
+  "containerP2": {
+    "text": "Cada Limón Supremo, de tamaño generoso y jugosidad inigualable, es cortado cuidadosamente a mano por campesinos de la región. Este método artesanal asegura que cada fruto sea tratado con el máximo cuidado para preservar su sabor íntegro. Después, son seleccionados meticulosamente, cepillados y encerados para garantizar frescura y calidad insuperables. Limón Supremo: una exquisitez con el toque distintivo de la labor artesanal de nuestros agricultores."
+  },
+  "container2": {
+    "text": "La ubicación estratégica de nuestras instalaciones, a escasos minutos del puerto de Manzanillo, facilita de manera significativa la exportación de limones a nivel global. Esta proximidad al puerto, uno de los principales centros logísticos de la región, nos otorga una ventaja competitiva al permitirnos realizar envíos eficientes y oportunos a destinos internacionales. Estamos comprometidos con la excelencia en la logística de exportación, garantizando la frescura y calidad de nuestros productos en cualquier parte del mundo."
+  },
+  "Organico": {
+    "text1": "En Limon Supremo, cada paso del proceso de cultivo se lleva a cabo con el más alto estándar de excelencia. Desde la selección de semillas hasta la cosecha, nos comprometemos a ofrecer limones que no solo cumplen con los requisitos orgánicos, sino que también son una fuente de bienestar para la salud. Nuestros limones, al ser libres de pesticidas, aseguran que los consumidores disfruten de una fruta fresca y natural, con un sabor auténtico y beneficios nutricionales sin compromisos.",
+    "text2": "Limon Supremo se distingue por su compromiso inquebrantable con la calidad y la sostenibilidad en la producción de limones orgánicos. Nuestra empresa se enorgullece de cultivar limones orgánicos que son completamente libres de pesticidas y otros productos químicos sintéticos. Apostamos por métodos agrícolas que respetan el equilibrio natural del ecosistema, utilizando prácticas sostenibles que minimizan el impacto ambiental.",
+    "text3": "Nos enorgullece ser una opción confiable para aquellos que buscan limones orgánicos de alta calidad, cultivados con integridad y dedicación a la salud del consumidor y del medio ambiente. Limon Supremo es sinónimo de limones orgánicos excepcionales, donde la calidad, la sostenibilidad y la salud convergen en cada cosecha."
+  },
+  "footer":{
+    "contact":"Contacto",
+    "gmail":"Correo Electronico",
+    "phone":"Teléfono",
+    "social_media":"Redes Sociales",
+    "rights":"Todos los derechos resrvados."
+  }
+}

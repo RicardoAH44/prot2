@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="contact-info">
       <h2>{t('footer.contact')}</h2>
       <p>
-        <strong>{t('footer.gmail')}:</strong> info@example.com
+        <strong>{t('footer.gmail')}:</strong> supremo.limon@gmail.com
       </p>
       <p>
         <strong>{t('footer.phone')}:</strong> +123 456 789
@@ -20,7 +20,7 @@ const Footer = () => {
       <h2>{t('footer.social_media')}</h2>
       <ul>
         <li>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/profile.php?id=61556190112763&locale=es_LA" target="_blank" rel="noopener noreferrer">
             Facebook
           </a>
         </li>
@@ -30,8 +30,8 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-            LinkedIn
+          <a href="https://www.instagram.com/limon.supremo/" target="_blank" rel="noopener noreferrer">
+            instagram
           </a>
         </li>
       </ul>

@@ -34,6 +34,16 @@ const Footer = () => {
             instagram
           </a>
         </li>
+        <li>
+          <a href="https://wa.link/m5mee8" target="_blank" rel="noopener noreferrer">
+            WhatsApp 
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCd73uc-RSGHFuFMlF9Bs_uQ8" target="_blank" rel="noopener noreferrer">
+            Youtube 
+          </a>
+        </li>
       </ul>
     </div>
 
